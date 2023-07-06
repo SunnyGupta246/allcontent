@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM3</title>
+</head>
+<body>
+    <h1>hello sunny</h1>
+    <p id="js"></p>
+    <button onclick="bot()" id="ot">Submit</button>
+    <script>
+        document.addEventListener("click",hello);
+        function hello(){
+            document.getElementById("js").innerText ="sunny gupta";
+        }
+        function bot(){
+            document.getElementById("ot").innerText ="rathi mc ";
+            document.getElementById("ot").style.color="red";
+            document.getElementById("ot").style.backgroundColor="grey";
+            document.getElementById("ot").style.padding="16px";
+            document.getElementById("ot").style.border="2px solid yellow";
+
+        }
+
+    </script>
+</body>
+</html>
